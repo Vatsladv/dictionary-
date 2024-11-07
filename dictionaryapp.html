@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    *{
+        margin:0%;
+        padding: 0%;
+    
+    }
+    body{
+        font-family: 'Roboto',sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(6,100,100);
+        color: whitesmoke;
+        font-size: 28px;
+        height: 90px;
+        margin-bottom: 50px;
+       
+    }
+    .container{
+        width: 500px;
+        padding: 22px;
+        background-color: #ffff;
+        box-shadow: 1px 3px 3px 3px gray;
+        border-radius: 6px;
+        margin: auto;
+       
+    }
+    .searchbar{
+        display: flex;
+        gap: 8px;   
+    }
+   
+    .container input{
+       width: 80%;
+       padding: 12px;
+       height: 13px;
+       border:none;
+       outline: none;
+       background-color:#e1e1e1;
+       font-size: 18px;
+       border-radius: 4px; 
+       
+    } 
+    .searchbar button{
+        width:80px;
+        background-color: rgb(147, 121, 68);
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .searchbar button:hover{
+        opacity:0.87;
+    } 
+    .text{
+        padding: 22px;
+        margin-top: 22px;
+    }
+    .text p{
+       margin-top: 18px; 
+    }
+    .Synonyms{
+        margin-bottom: 10px;
+        word-wrap: break-word;
+    }
+    .readmore{
+        position: fixed;
+    }
+    .text a{
+        padding: 6px 20px;
+        background-color: rgb(147, 121, 68);;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        position: relative;
+        top: 12px;
+    }
+    .text a:hover{
+        opacity: 0.88;
+    }
+    .text span{
+    color:gray(92,91,91);
+   } 
+   @media screen and (max-width:600px){
+    .container{
+        width: 80%;
+    }
+   }
+</style>
+</head>
+<body>
+    <nav>
+        <h1> Dictionary App</h1>
+    </nav>
+   <div class="container"> 
+     <div class="searchbar">
+        <input type="text" placeholder="Search here." id="searchInput">
+        <button id="searchBtn"> Search</button>
+</div>
+  <div class="text"> 
+    
+
+  </div>
+</div>
+   
+    <script src="dictionaryapp.js">  
+    
+
+
+
+    </script>
+</body>
+</html>

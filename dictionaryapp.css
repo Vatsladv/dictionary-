@@ -1,0 +1,17 @@
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6,100,100);
+    color: whitesmoke;
+    font-size: 28px;
+    height: 90px;
+}
